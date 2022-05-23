@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Reto Tecnico using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="6e219268db0da3264f37c50783218ccb0d5613e435416541bcbdf75c3a83d0e5.html">Report Time In Maxtime Page</a></span>
+                > <span class="truncate-60"><a
+                    href="8026c65a47516da846face168c29307ecd515a9d693f54a94be01f5c74d67732.html"> </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-05-2022 11:30</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Report Time In Maxtime Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that Camilo is in the Maxtime page<br>When he login in the page<br>And select the day, fill the form with the information of his working day<br>Then the day close with message Atención:</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8983be868804aeca7d4abc9c2a7ea4b82d49c3bc75a702553a3a1f0266d65d2c.png" title=" Example: {proyecto=Banking, servicio=pruebas cl&aacute;sicas, actividad=FORMACI&Oacute;N GU&Iacute;AS, horas=9, comentario=RetoTecnico3}" width="1366"/>
+                <img src="8983be868804aeca7d4abc9c2a7ea4b82d49c3bc75a702553a3a1f0266d65d2c.png" title=" Given that Camilo is in the Maxtime page" width="1366"/>
+                <img src="8983be868804aeca7d4abc9c2a7ea4b82d49c3bc75a702553a3a1f0266d65d2c.png" title=" Camilo open up" width="1366"/>
+                <img src="8983be868804aeca7d4abc9c2a7ea4b82d49c3bc75a702553a3a1f0266d65d2c.png" title=" Camilo opens the Max time page" width="1366"/>
+                <img src="8983be868804aeca7d4abc9c2a7ea4b82d49c3bc75a702553a3a1f0266d65d2c.png" title=" Camilo open up (completed)" width="1366"/>
+                <img src="8983be868804aeca7d4abc9c2a7ea4b82d49c3bc75a702553a3a1f0266d65d2c.png" title=" Given that Camilo is in the Maxtime page (completed)" width="1366"/>
+                <img src="75502aff34a66d1fc2ec46d8126b46356dff105927e4d58dde070fcb496d086a.png" title=" When he login in the page
+| user | pass |
+| jortizf | Exxidae2020. |" width="1366"/>
+                <img src="75502aff34a66d1fc2ec46d8126b46356dff105927e4d58dde070fcb496d086a.png" title=" Camilo login" width="1366"/>
+                <img src="75502aff34a66d1fc2ec46d8126b46356dff105927e4d58dde070fcb496d086a.png" title=" Camilo enters 'jortizf' into input to write the username" width="1366"/>
+                <img src="d887f35cb59592192f7ab6db0d7c8ad680ec1cab1a8b5b1ccaae005fb61152f4.png" title=" Camilo enters 'Exxidae2020.' into input to write the password" width="1366"/>
+                <img src="e15c56c00c1ff1b8328733366e1360847a6ad112749db64cb9b3d9d4af899fca.png" title=" Camilo clicks on button to log in" width="1366"/>
+                <img src="e15c56c00c1ff1b8328733366e1360847a6ad112749db64cb9b3d9d4af899fca.png" title=" Camilo login (completed)" width="1366"/>
+                <img src="e15c56c00c1ff1b8328733366e1360847a6ad112749db64cb9b3d9d4af899fca.png" title=" When he login in the page
+| user | pass |
+| jortizf | Exxidae2020. | (completed)" width="1366"/>
+                <img src="847247025169b6b92171bcd4067ae9b4603ca0804f85dd736a9174e0e1fdba08.png" title=" And select the day, fill the form with the information of his working day
+| proyecto | servicio | actividad | horas | comentario |
+| Banking | pruebas cl&aacute;sicas | FORMACI&Oacute;N GU&Iacute;AS | 9 | RetoTecnico3 |" width="1366"/>
+                <img src="847247025169b6b92171bcd4067ae9b4603ca0804f85dd736a9174e0e1fdba08.png" title=" Camilo report" width="1366"/>
+                <img src="847247025169b6b92171bcd4067ae9b4603ca0804f85dd736a9174e0e1fdba08.png" title=" Camilo clicks on where do we select the day to report" width="1366"/>
+                <img src="847247025169b6b92171bcd4067ae9b4603ca0804f85dd736a9174e0e1fdba08.png" title=" Camilo clicks on where do we select the day to report" width="1366"/>
+                <img src="cb13e46d8499f46a3a740f62a23545304bb1e2edd747a5017e6950292dc81193.png" title=" Camilo clicks on where do we select the day to report" width="1366"/>
+                <img src="53355bb45a6af3b1e3531b06932fd1ecd1eb3596ceae5bf92d606915d80d3b40.png" title=" Camilo clicks on button to create a new report" width="1366"/>
+                <img src="71659428e49c9d867d2ac02beff4e408aaccb27d0c8a5ab77ed6cbb604e49707.png" title=" Camilo clicks on button to input the project" width="1366"/>
+                <img src="e9cfda0fdcd8f9fc230bed7ca84f935034ccfce5fdf0f1bf637a8c773ed825c6.png" title=" Camilo enters 'Banking' into where do we write our project" width="1366"/>
+                <img src="4ffb527f859bfc70eab7aa52a1b397b1da70e8a4d4373d97ede2e658dc643e2d.png" title=" Camilo clicks on click to search the project" width="1366"/>
+                <img src="2e1f32894043be5cacb89dd2f42685a0e0f7d99d54e303582d8d4cfa390239fe.png" title=" Camilo clicks on cell of our project" width="1366"/>
+                <img src="496753dbfccbfe5a0a02d6ba0bf3d3604b86550476c82b02927007ba3d89e154.png" title=" Camilo clicks on display the select of type hours" width="1366"/>
+                <img src="4bf276e6b36e7485bfd6bbc000c294081b4838e6c119b7907bda2f56a8ccf10f.png" title=" Camilo clicks on Choucair type of hour" width="1366"/>
+                <img src="383c9bd482a8487557846c7d196718125eb4543ea0a65a88f8679e464b396fc7.png" title=" Camilo clicks on button to input the service" width="1366"/>
+                <img src="d3ef9093ab4274d0d222fcc658c08a7e79b5e0e246529332c85d3acd54b2cc7a.png" title=" Camilo enters 'pruebas cl&aacute;sicas' into where do we write the service for search" width="1366"/>
+                <img src="d457a3f77d8d8867a81c5fade4633672b191ebd6153726238ec5fd1ed8c58f03.png" title=" Camilo clicks on click to search the project" width="1366"/>
+                <img src="18f9d64689799670f739664ee9db0dd355d57fdff1176a982915f793c0247bf5.png" title=" Camilo clicks on Pruebas Generales Cl&Atilde;&iexcl;sicas service" width="1366"/>
+                <img src="cdbf3fd6ccdf6fc86d5f291bc2d2c1c9563996736ef53cb6a4b465a99021d2a8.png" title=" Camilo enters 'FORMACI&Oacute;N GU&Iacute;AS' into where do we write the activity" width="1366"/>
+                <img src="de98b46667352406b529085b28c038bc06802881907350ff2fa2af9a922d8d38.png" title=" Camilo clicks on Formaci&Atilde;&sup3;n Guias activity" width="1366"/>
+                <img src="9b0036debdefcac12e1d1af262b29f5d34f68039eef6b7e013ada4cd7444e219.png" title=" Camilo enters '9' into where do we write the time executed" width="1366"/>
+                <img src="fb7e0ca052d506d6aa65702feb5f7980eef3c4f9d5861392b05ab2b434d13ec2.png" title=" Camilo enters 'RetoTecnico3' into where do we write the commentary of our register" width="1366"/>
+                <img src="7eb38ccfd354c9e346f2ea8d52f95074e713915e2ae5198d1b977ed8b76175fe.png" title=" Camilo clicks on button for save and close the report" width="1366"/>
+                <img src="83f1527c21b26ea570bad28edca12b47562f2ba65348e8491b4d7a8bc96e9479.png" title=" Camilo clicks on button to close the day to report" width="1366"/>
+                <img src="83f1527c21b26ea570bad28edca12b47562f2ba65348e8491b4d7a8bc96e9479.png" title=" Camilo report (completed)" width="1366"/>
+                <img src="83f1527c21b26ea570bad28edca12b47562f2ba65348e8491b4d7a8bc96e9479.png" title=" And select the day, fill the form with the information of his working day
+| proyecto | servicio | actividad | horas | comentario |
+| Banking | pruebas cl&aacute;sicas | FORMACI&Oacute;N GU&Iacute;AS | 9 | RetoTecnico3 | (completed)" width="1366"/>
+                <img src="d5d0c9b100b62f8c99d04a20d72d4ee0c3268c8cba6b802db9bf345d0cd5d8d3.png" title=" Then the day close with message Atenci&oacute;n:" width="1366"/>
+                <img src="d5d0c9b100b62f8c99d04a20d72d4ee0c3268c8cba6b802db9bf345d0cd5d8d3.png" title=" Then caption" width="1366"/>
+                <img src="d5d0c9b100b62f8c99d04a20d72d4ee0c3268c8cba6b802db9bf345d0cd5d8d3.png" title=" Then the day close with message Atenci&oacute;n: (completed)" width="1366"/>
+                <img src="d5d0c9b100b62f8c99d04a20d72d4ee0c3268c8cba6b802db9bf345d0cd5d8d3.png" title=" Example: {proyecto=Banking, servicio=pruebas cl&aacute;sicas, actividad=FORMACI&Oacute;N GU&Iacute;AS, horas=9, comentario=RetoTecnico3} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.77</span>
+</div>
+</body>
+</html>
